@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AL MUSTAFAA</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<!-- CSS FILE ---> 
+<style>
+.abc1{
+    border: none ;
+    background-color: transparent;
+
+}
+input:focus{
+    border: none solid black !important;
+    outline: none;
+}
+
+.abc2{
+    border: none ;
+    border-radius: 20px;
+    height: 10px;
+}
+.abc3{
+    border-radius: 50px !important;
+    margin-left: -550px;
+    margin-top: 50px;
+    border-radius: 50px;
+}
+
+
+.btns{
+    position: relative;
+    left: 140px;
+     height: 40px;
+    margin-left: 400px;
+    width: 170px;
+    border-radius: 50px;
+    background: #78c9c0;
+ color: white;
+        font-size: 18px;
+        font-weight: bold;
+        padding: 12px 24px;
+        border: none;
+        border-radius: 50px;
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        transition: transform 0.3s, background-color 0.3s;
+}
+.main{
+    margin-left: 120px;         
+ color: white;   
+    font-size: 18px;
+ }
+ .name{
+     margin-left: 200px;
+     font-size: 33px;
+     width: 150px;
+ }
+ .main{
+    margin-left: 80px;
+    font-size: 18px;
+   margin-top: 20px;
+   color: white;
+ }
+ .boss-item{
+    color: rgb(0, 0, 0);
+    margin-top: -10px;
+ }
+ li{
+ color: white;   
+ margin-top: -1px;
+ margin-left: 20px;
+ }
+ .tab{
+    background-image: linear-gradient(15deg, #2e7aa7 0%, #80d0c7 100%);
+    margin-top: -7px;
+ }
+ .btn   {
+    margin-left: 120px;
+    margin-top: -8px;
+    height: 50px;
+    width: 170px;
+    border-radius: 50px;
+ background-color: #ff5722;
+ color: #fff;
+        font-size: 18px;
+        font-weight: bold;
+        padding: 12px 24px;
+        border: none;
+        border-radius: 50px;
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+        display: inline-flex;
+        align-items: center;
+        cursor: pointer;
+        transition: transform 0.3s, background-color 0.3s;
+ }
+ .dop:hover{
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s;
+ }
+ .hero-section{
+    background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+    width: 100%;
+    height: 565px;
+
+}
+.text{
+    font-size: 58px;
+    box-sizing: border-box;
+    padding-bottom: 150px;
+    margin-left:400px;
+}
+.cd{
+    margin-top: 50px;
+    font-size: 49px;
+    font-weight: bolder;
+    
+}
+.f-c{
+    width: 26%;
+    height: 20px;
+    margin-top: 70px;
+    
+    margin-left: 100px;
+}
+.f-t{
+display: flex !important;
+position: relative;
+left: 400px;
+top: -385px;
+
+}
+.f-p{
+    display: flex !important;
+position: relative;
+left: 400px;
+top: -385px;
+margin-top: -5px;
+
+}
+.crd1{
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
+    height: 380px;
+  
+}
+.crd2{
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
+    height: 390px;
+}
+
+.crd3{
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
+    height: 389px;
+}
+.b{
+    width: 70%;
+}
+.head{
+    display: flex;
+    justify-content: center;
+  top: -250px;
+  position: relative;
+}
+.cp{
+    width: 149%;
+    margin-top: -200px;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 10, .175);
+    margin-left: -50px;
+}
+.loa{
+    color: gray;
+    font-weight: normal;
+}
+.gog{
+object-fit: cover;
+border-radius: 40px;
+max-width: 100%;
+padding: 20px;
+transition: all 0.3s ease;
+
+}
+.none{
+    text-align: center;
+    margin-top: 100px;
+}
+.lo{
+    color: gray;
+}
+.page{
+    width: 110%;
+    height: 540px;
+  margin-left: -450px;
+  margin-top: 100px;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 10, .175);box-shadow: 0 1rem 3rem rgba(0, 0, 10, .175);
+}
+.ionic{
+    object-fit: cover;
+    border-radius: 40px;
+    max-width: 100%;
+    padding: 20px;
+    transition: all 0.3s ease;
+    height: 300px;
+    margin-top: -30px;
+    
+}
+.pagee{
+    margin-top: -540px;
+    width: 110%;
+    height: 540px;
+    margin-left: -30px;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 10, .175);
+}
+.pageee{
+    position: relative;
+    left: 400px;
+    top: -540px;
+    width: 110%;
+    height: 540px;
+    box-shadow: 0 1rem 3rem rgba(0, 10, 10, .175);
+}
+.hot{
+    margin-top: 2600px;
+}
+
+.ko{
+    background-color: rgb(226, 239, 243);
+    height: 500px;
+}
+.map-container{
+    position: relative;
+      margin-left: 100px;
+}
+.map{
+    width: 50%;
+    height: 250px;
+    margin-top: 100px;
+}
+.hit{
+    margin-left: 340px;
+    margin-top: -250px;
+}
+.pti{
+    font-size: 23px;
+    color: gray;
+    font-weight: normal;
+}
+.hr{
+width:40%;
+margin-left: 760px;
+}
+.hitt{
+    margin-left: 760px;
+    font-size: 22px;
+    color: gray;
+    font-weight: normal;
+}
+.span1{
+    color: skyblue;
+}
+
+/* Media Query to make respinsive */
+@media only screen and (max-width: 1010px) {
+
+ .tg{
+  margin-left: -1px;
+  width: 100%;
+}
+/* form */
+.abc3{
+    border-radius: 50px !important;
+    margin-left: -280px;
+    margin-top: 150px;
+    border-radius: 20px;
+    width: 50%;
+    height: 80px;
+}
+.btns{
+    position: relative;
+    left: 100px;
+    top: -50px;
+    height: 40px;
+    width: 70px;
+    border-radius: 10px;
+    background: #78c9c0;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 24px;
+    border: none;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s;
+}
+.f-c{
+    height: 20px;
+    margin-top: 70px;
+    margin-left: 70px;
+    width: 70%;
+}
+
+.f-t{
+display: flex !important;
+position: relative;
+left: 1px;
+top: 10px;
+width: 180%;
+height: 300px;
+}
+.f-p{
+    display: flex !important;
+position: relative;
+left: -355px;
+top: 410px;
+width: 123%;
+margin-top: -5px;
+
+}
+.cp{
+    width: 149%;
+    margin-top: 550px;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 10, .175);
+    margin-left: -380px;
+}
+.cd{
+    margin-top: 50px;
+    font-size: 49px;
+    font-weight: bolder;
+    text-align: center;
+    margin-left: -40px;
+}
+.c{
+ margin-left: -50px; 
+}
+.head{
+    display: flex;
+    justify-content: center;
+  top: 490px;
+  left: -300px;
+  position: relative;
+}
+}
+
+/* MIN */
+
+</style>
+<body>
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary tab">
+    <div class="container-fluid tab   navbar navbar-expand-lg">
+      <a class="navbar-brand name" href="#">Al Mustafa</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse main" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 boss-item">
+          <li class="nav-item ">
+            <a class="nav-link active" aria-current="page" href="#">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section_2">COURSES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section3">TUTOR</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section5">REVIEW</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section6">CONTACT</a>
+          </li>
+
+
+
+          <div class="d-none d-lg-block left">
+            <button class=" mb-2  mb-lg-0 btn ">
+              <i class="fa-solid fa-graduation-cap"></i> Enroll Now
+            </button>
+
+          </div>
+      </div>
+  </nav>
+
+  <section class="hero-section d-flex justify-content-center align-items-center ">
+    <h1 class="text-white text-center text col-lg-4 col-md-6 mb- tg ">Learn. Code . Earn</h1>
+
+    <form action="" class="w-50 abc3 bg-light container py-3 form-control">
+      <input  type="search" class="w-50 abc1 custom-form search col-lg-4 col-md-6 mb-4 mb-md-0" id="exampleFormControlInput1"
+        placeholder=" Full-Stack Development" >
+        <button class=" text-center m-1 abc2 btns mn col-lg-4 col-md-6 mb-4 mb-md-0">Search </button>
+</form>
+    </div>
+  </section>
+<section class="section2">
+  <div class="sec" id="section_2">
+  <div class="scr2">
+    <h1 class="text-center cd">Courses <br>
+      <h3 class="text-center c">Design</h3> 
+    </h1>
+    
+    <div class="card-group f-c ">
+      <div class="card  ">
+        <div class="card-body crd1">
+          <h5 class="card-title">Web Designing</h5>
+          <p class="card-text">Topics include : CSS3 , Bootsrtap and other
+            frameworks...</p>
+          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+          <img src="https://almustafaa.netlify.app/images/topics/undraw_Remote_design_team_re_urdx.png" class="card-img-top" alt="...">
+        </div>
+      </div>
+<div>
+  <div class="card-group f-t ">
+    <div class="card  ">
+      <div class="card-body crd2">
+        <h5 class="card-title">Grapic</h5>
+        <p class="card-text">Topics include: Adobe Photoshop (PS) , Adobe
+          Illustrator (AI)....</p>
+        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+        <img src="https://almustafaa.netlify.app/images/topics/undraw_Redesign_feedback_re_jvm0.png" class="card-img-top dod" alt="...">
+      </div>
+
+    </div>
+    <div>
+      <div class="card-group f-p ">
+        <div class="card  ">
+          <div class="card-body crd3">
+            <h5 class="card-title">Logo Design</h5>
+            <p class="card-text">Topics include : Canva , Ps , AI ....</p>
+            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            <img src="https://almustafaa.netlify.app/images/topics/colleagues-working-cozy-office-medium-shot.png" class="card-img-top b" alt="...">
+          </div>
+        </div>
+    <div>
+    </div>
+    </div>
+    <sectio  class="main-sec" id="section3">
+      <h1 class="head">Tutor</h1>
+      <div class="">
+        <div class="card cp">
+          <div class="card-body info">
+            <h5 class="card-title text-center">Mohammad Saad Ali</h5>
+            <h5 class="card-title text-center loa">Founder of Al Mustafa Academy</h5>
+            <h5 class="card-title text-center loa">Full Stack developer | Studied web and mobile app development in Saylani | Studies BSCS in SMIU | Studies in Aptech Garden Center | Studies AI in PIAIC.
+            </h5>
+          </div>
+          <img src="https://almustafaa.netlify.app/images/topics/saadbhai2.jpg" class="card-img-top gog" alt="...">
+        </div>
+      </div>
+      <section class="sec5" id="section5">
+        <h1 class="none">Reviews</h1>
+        <div class="">
+          <div class="card page">
+            <div class="card-body info">
+              <h5 class="card-title text-center">Hassaan</h5>
+              <h5 class="card-title text-center lo">My time at Al Mustafa Academy was incredible. The instructors were knowledgeable and always willing to help. The curriculum was well-structured , and I gained practical skills and I loved it ....
+              </h5>
+              <h5 class="card-title text-center lo">Rating : ⭐⭐⭐⭐ (4/5)
+    
+    
+              </h5>
+            </div>
+            <img src="https://almustafaa.netlify.app/images/topics/Hassaan.png" class="card-img-top ionic" alt="...">
+          </div>
+        </div>
+    
+        <div class="">
+          <div class="card pagee">
+            <div class="card-body info">
+              <h5 class="card-title text-center">Ahmed</h5>
+              <h5 class="card-title text-center lo">The learning environment at Al Mustafa Academy is extremely supportive and engaging. The small class sizes allowed for personalized attention, and the hands-on projects were invaluable... ....
+              </h5>
+              <h5 class="card-title text-center lo">Rating : ⭐⭐⭐⭐ (4.5/5)
+              </h5>
+            </div>
+            <img src="https://almustafaa.netlify.app/images/topics/ahmed-removebg-preview%20(1).png" class="card-img-top ionic" alt="...">
+          </div>
+    
+          <div class="">
+            <div class="card pageee">
+              <div class="card-body info">
+                <h5 class="card-title text-center">Hassaan</h5>
+                <h5 class="card-title text-center lo">What sets Al Mustafa Academy apart is its focus on innovation and staying ahead of industry trends. The instructors are industry professionals who bring their real-world experience ....
+                </h5>
+                <h5 class="card-title text-center lo">Rating : ⭐⭐⭐⭐ (5/5)
+                </h5>
+              </div>
+              <img src="https://almustafaa.netlify.app/images/topics/muneeb-removebg-preview.png" class="card-img-top ionic" alt="...">
+            </div>
+        
+      </section>
+    </section>
+    <div class="ko">
+    <section class="sec6" id="section6">
+      <h1 class="hot text-center">Get in touch</h1>
+      <div class="map-container">
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3618.0406129393587!2d67.09663467443207!3d24.930686342445636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb338b5cdbbc095%3A0x3bd5f577d2e87a59!2sSaylani%20Welfare%20Trust%2C%20Gulshan%20Branch!5e0!3m2!1sen!2s!4v1731821929920!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <h1 class="hit text-center">
+        Academy <br>
+      <p class="pti">Garden , Karachi</p></h1>
+      <hr class="hr">
+      <h2 class="hitt">Phone: <span class="span1">305-240-9671</span></h2>
+      <h2 class="hitt">Email: <span class="span1">almustafaacdemy@gmail.com</span></h2>
+      </div>
+    </section>
+    <section class="footer">
+      <div class="container my-5">
+    
+        <footer class="text-white text-center text-lg-start" style="background-color: #23242a;">
+          <!-- Grid container -->
+          <div class="container p-4">
+            <!--Grid row-->
+            <div class="row mt-4">
+              <!--Grid column-->
+              <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+                <h5 class="text-uppercase mb-4">Al Mustafaa</h5>
+      
+                <p>
+                  My time at Al Mustafa Academy was incredible.and I gained practical skills and I loved it ....
+                </p>
+      
+                <p>
+                  The instructors were knowledgeable and always willing to help. The curriculum was well-structured
+                </p>
+      
+              </div>
+              <!--Grid column-->
+      
+              <!--Grid column-->
+              <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase mb-4 pb-1">Search something</h5>
+      
+                <div class="form-outline form-white mb-4">
+                  <input type="text" id="formControlLg" class="form-control form-control-lg">
+                  <label class="form-label" for="formControlLg" style="margin-left: 0px;">Search</label>
+                <div class="form-notch"><div class="form-notch-leading" style="width: 9px;"></div><div class="form-notch-middle" style="width: 48.8px;"></div><div class="form-notch-trailing"></div></div></div>
+      
+                <ul class="fa-ul" style="margin-left: 1.65em;">
+                  <li class="mb-3">
+                    <span class="fa-li"><i class="fas fa-home"></i></span><span class="ms-2">New York, NY 10012, US</span>
+                  </li>
+                  <li class="mb-3">
+                    <span class="fa-li"><i class="fas fa-envelope"></i></span><span class="ms-2">info@example.com</span>
+                  </li>
+                  <li class="mb-3">
+                    <span class="fa-li"><i class="fas fa-phone"></i></span><span class="ms-2">+ 01 234 567 88</span>
+                  </li>
+                  <br>
+                  <li class="mb-3">
+                    <span class="fa-li"><i class="fas fa-print"></i></span><span class="ms-2">+ 01 234 567 89</span>
+                  </li>
+                </ul>
+              </div>
+              <!--Grid column-->
+      
+              <!--Grid column-->
+              <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase mb-4">Opening hours</h5>
+      
+                <table class="table text-center text-white">
+                  <tbody class="font-weight-normal">
+                    <tr>
+                      <td>Mon - Thu:</td>
+                      <td>8am - 9pm</td>
+                    </tr>
+                    <tr>
+                      <td>Fri - Sat:</td>
+                      <td>8am - 1am</td>
+                    </tr>
+                    <tr>
+                      <td>Sunday:</td>
+                      <td>9am - 10pm</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--Grid column-->
+            </div>
+            <!--Grid row-->
+          </div>
+          <!-- Grid container -->
+      
+          <!-- Copyright -->
+          <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2020 Copyright:
+            <a class="text-white" href="https://mdbootstrap.com/">AL- MUSTAFA<br>BY AFFAN</a>
+          </div>
+          <!-- Copyright -->
+        </footer>
+    
+</body>
+
+</html>
